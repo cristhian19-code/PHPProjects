@@ -1,0 +1,53 @@
+body,html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+p{
+	margin: 5px
+}
+
+.form{
+	width: 50%;
+	background-color: #17202a;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	padding: 30px 10px;
+	border-radius: 5px;
+}
+
+.title-form{
+	font-size: 40px;
+	font-weight: 200;
+}
+
+.form-control{
+	border: none;
+	outline: none;
+	width: 80%;
+	padding: 10px;
+	margin: 7px 0;
+	border-radius: 5px;
+}
+
+.btn{
+	color: #17202a;
+	background-color: white;
+	border: none;
+	font-size: 15px;
+	border-radius: 5px;
+	height: 35px;
+	width: 150px
+}

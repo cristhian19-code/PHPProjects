@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container-comidas{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	grid-gap: 20px;
+	padding: 10px 10px;
+}
+
+.card-comida{
+	background-color: #EAEDED;
+	border-radius: 20px 20px 10px 10px;
+	width: 300px;
+	box-shadow: 4px 4px 14px 2px rgba(209,209,209,1);
+	border-bottom: 3px solid black;
+}
+
+.card-comida:hover{
+	transition: .5s;
+	transform: scale(1.02);
+}
+
+.card-comida img{
+	max-width: 100%;
+	border-radius: 20px;
+}
+
+.content{
+	padding: 10px 15px;
+}
+
+.nombre{
+	height:50px;
+	font-weight: bold;
+}
+
+.descripcion{
+	height: 60px;
+	font-size: 13px;
+}
+
+.precio{
+	font-size: 16px;
+	font-weight: bold;
+}

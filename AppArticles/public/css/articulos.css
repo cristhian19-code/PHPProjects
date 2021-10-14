@@ -1,0 +1,100 @@
+body,html{
+	padding: 0;
+	margin: 0;
+}
+
+p{
+	margin: 5px
+}
+
+/* Estilos para el contenedor de los articulos */
+
+.container-articles{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	grid-gap: 15px;
+	padding: 10px;
+}
+
+/* Estilos para el articulo */
+
+.article{
+	width: 360px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #17202a;
+	border-radius: 10px;
+	color: white;
+}
+
+.header{
+	padding: 10px;
+}
+
+.container-img img {
+	transition:all .9s ease;
+	width:100%;
+}
+
+.container-img:hover img {
+	transform:scale(1.1);
+}
+
+.container-img {
+	overflow:hidden;
+	cursor: pointer;
+}
+
+.date-article{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.title-article{
+	font-size: 30px;
+	font-weight: 300;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.buttons{
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 20px 0;
+}
+
+.admin-buttons{
+	display: flex;
+	grid-gap: 5px;
+}
+
+.btn{
+	text-align: center;
+	width: 80px;
+	border-radius: 5px;
+	border: none;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 5px 0px;
+	cursor: pointer;
+}
+
+.btn-success{
+	background-color: #239B56;
+	color: white;
+}
+
+.btn-danger{
+	background-color: #E74C3C;
+	color: white;
+}
+
+.btn-orange{
+	background-color: #DC7633;
+	color: white;
+}

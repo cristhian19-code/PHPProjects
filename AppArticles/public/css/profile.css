@@ -1,0 +1,50 @@
+.form{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.form-group{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-group label{
+	font-size: 15px;
+	margin: 20px 0 5px 0;
+}
+
+.form-control{
+	width: 50%;
+	height: 40px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	outline: none
+}
+
+.btn{
+	height: 35px;
+	width: 120px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn-green{
+	background-color: #196F3D;
+	color: white;
+}
+
+.display-1{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 300;
+}

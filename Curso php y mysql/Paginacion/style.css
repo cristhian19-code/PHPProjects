@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+	text-align: center;
+	font-weight: lighter;
+}
+
+.articulos {
+	margin: 50px 0;
+}
+
+ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.articulos ul{
+	flex-direction: column;
+}
+
+.paginacion ul{
+	flex-direction: row;
+	grid-gap: 10px;
+}
+
+.paginacion ul li{
+	height: 20px;
+	width: 20px;
+	background-color: #d35400;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.paginacion a{
+	color: white;
+	text-decoration: none;
+}
+
+.paginacion ul .active{
+	background-color: #17202a;
+}
+
+.paginacion ul .disabled{
+	background-color: #d7dbdd;
+	cursor: not-allowed;
+}
+
+.paginacion ul li:not(.disabled,.active):hover{
+	transition: .5s;
+	background-color: #1a5276;
+}
